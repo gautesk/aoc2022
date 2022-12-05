@@ -93,15 +93,11 @@ func task2B(input []string) {
 		totalScore += getWeaponScore(p2)
 		totalScore += getOutcomeScore(p1, p2)
 	}
-
 	fmt.Println(totalScore)
-
 }
 
 func main() {
 	data := lib.ReadAndSplit("day2/day2.txt", "\n")
-
 	task2A(data)
 	task2B(data)
-
 }
