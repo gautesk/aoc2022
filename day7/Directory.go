@@ -14,13 +14,3 @@ func InitDirectory() Directory {
 	directory := Directory{0, []string{}}
 	return directory
 }
-
-type SimpleDirectory struct {
-	name      string
-	totalSize int
-}
-
-func CreateSimpleDirectory(name string, totalSize int) SimpleDirectory {
-	dir := SimpleDirectory{name, totalSize}
-	return dir
-}
